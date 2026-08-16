@@ -2,6 +2,8 @@
 
 爱弥斯主题皮肤 + 像素桌宠（鸣潮 Aemeath / Wuthering Waves），用于 DeepSeek Harness Web GUI。
 
+<img width="1684" height="1064" alt="image" src="https://github.com/user-attachments/assets/da2c1a8e-5ea8-4e1c-81d4-4c3f5cfffc83" />
+
 - 🖼️ **皮肤**：4K 鸣潮爱弥斯壁纸背景（原始分辨率、锐利不压缩）+ 冰蓝/粉紫/深空蓝配色
   - 深色模式：壁纸清晰 + 半透明面板 + 毛玻璃
   - 浅色模式：壁纸清晰透出 + 高透明面板（无遮罩、无磨砂，避免暗图发灰发糊）
