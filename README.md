@@ -12,12 +12,19 @@
 
 ## 安装
 
-```bash
-# 链接安装到你的 web profile
-dsh plugin --profile web add link:/path/to/dsh-aemeath
+从 GitHub 安装（任何人均可）：
 
-# 重启 DSH 后生效
+```bash
+dsh plugin --profile web add git+https://github.com/hachimi-ai/dsh-aemeath
 ```
+
+本地开发用（改源码即时生效）：
+
+```bash
+dsh plugin --profile web add link:/path/to/dsh-aemeath
+```
+
+安装后**重启 DSH 生效**。
 
 安装后，web GUI 自动加载皮肤背景与桌宠；桌宠默认在右下角，可拖拽、左键点击互动、右键打开菜单。
 
