@@ -1,0 +1,45 @@
+{
+  "name": "dsh-aemeath",
+  "version": "0.1.0",
+  "description": "爱弥斯主题皮肤 + 像素桌宠（鸣潮 Aemeath）：4K 壁纸背景、冰蓝紫罗兰配色、精灵动画桌宠。独立双端插件，不依赖 web-ui 家族。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-client-runtime": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-host-webserver": "^0.1.0-rc.6",
+    "react": "^18.2.0"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "skin",
+    "pet",
+    "aemeath",
+    "wuthering-waves"
+  ]
+}

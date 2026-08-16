@@ -1,0 +1,10 @@
+# dsh-aemeath bundle patch: inserts the dual-face plugin row into a dsh profile.
+# One row mounts BOTH halves — the node half (exports ".") serves the wallpaper /
+# spritesheet / status routes and runs the pet state machine, and the `dsh.client`
+# declaration in package.json loads the browser half (exports "./client") into the
+# web GUI.
+#
+# Install:  dsh plugin --profile <name> add link:/path/to/dsh-aemeath
+- insert:
+    - id: aemeath
+      name: 'dsh-aemeath'
